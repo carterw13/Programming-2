@@ -26,7 +26,6 @@ namespace DataAccess
             nums[1] = val2;
             nums[2] = val3;
 
-
             Console.ReadKey();
         }
 
