@@ -20,7 +20,7 @@ namespace DataAccess
             result = Add(val1, val2);
             Console.WriteLine($"{val1} + {val2} = {result.ToString("N2")}");
 
-            double[] nums = {val1, val2, val3}:
+            double[] nums = { val1, val2, val3 };
             nums = new double[3];
             nums[0] = val1;
             nums[1] = val2;
@@ -53,6 +53,7 @@ namespace DataAccess
             {
                 r += number;
             }
+            
             return r;
         }
 
